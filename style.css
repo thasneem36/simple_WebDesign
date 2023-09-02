@@ -10,15 +10,16 @@ body{
     column-gap: 100px;
 }
 
-.pik div{
+.pik{
     margin: 10px;
+    margin-left: 20px;
 }
-.red{
-    background: rgb(238, 0, 255);
+#redc{
+    border: none;
+    background-color: red;
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    cursor: pointer;
 }
 
 
@@ -48,7 +49,7 @@ body{
     font-size: 35px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400px;
-    color: blue;
+    /* color: blue; */
     margin-top: -10px;
     margin-bottom: 0;
     margin-left: -3px;
@@ -62,6 +63,6 @@ body{
 }
 .socialmedia a i{
     font-size: 25px;
-    color: blue;
+    color: rgb(127, 127, 127);
     padding-right: 40px;
 }
