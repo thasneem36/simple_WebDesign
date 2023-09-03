@@ -2,6 +2,7 @@ function redChange() {
     color_r = 'red';
     //name change
     let color_C_red = document.getElementById('name');
+    // color_C_red.style.transition = '1s';
     color_C_red.style.color = color_r;
 
     //hello i am 

@@ -87,6 +87,7 @@ body{
     margin-top: -10px;
     margin-bottom: 0;
     margin-left: -3px;
+    transition: 1s;
 }
 
 
@@ -99,7 +100,9 @@ body{
     font-size: 25px;
     color: rgb(127, 127, 127);
     padding-right: 40px;
+    transition: 2s;
 }
 .shadow:hover{
     text-shadow: 1px 1px 5px rgba(57, 55, 55, 0.371);
+    transition: 0.5s;
 }
