@@ -4,6 +4,11 @@ function redChange() {
     let color_C_red = document.getElementById('name');
     color_C_red.style.color = color_r;
 
+    //hello i am 
+    let color_hello = document.getElementById('hello_c')
+    color_hello.style.color = 'rgba(255, 0, 0, 0.7)';
+    color_hello.style.textShadow = '1px 1px 5px red';
+
     //social media change
     let soci_c_red_1 = document.getElementById('soci1')
     soci_c_red_1.style.color = color_r
@@ -28,6 +33,11 @@ function blueChange(){
     let color_C_red = document.getElementById('name');
     color_C_red.style.color = color_r;
 
+    //hello i am 
+    let color_hello = document.getElementById('hello_c')
+    color_hello.style.color = 'rgba(0, 0, 255, 0.6)';
+    color_hello.style.textShadow = '1px 1px 5px blue'
+
     //social media change
     let soci_c_red_1 = document.getElementById('soci1')
     soci_c_red_1.style.color = color_r;
@@ -50,6 +60,11 @@ function orangeChange(){
     //name change
     let color_C_red = document.getElementById('name');
     color_C_red.style.color = color_r;
+
+    //hello i am 
+    let color_hello = document.getElementById('hello_c')
+    color_hello.style.color = 'rgba(255, 166, 0, 0.6)';
+    color_hello.style.textShadow = '1px 1px 5px orange'
 
     //social media change
     let soci_c_red_1 = document.getElementById('soci1')
