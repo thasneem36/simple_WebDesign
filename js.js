@@ -26,6 +26,12 @@ function redChange() {
     let soci_c_red_5 = document.getElementById('soci5')
     soci_c_red_5.style.color = color_r
 
+    let soci_c_red_6 = document.getElementById('soci6')
+    soci_c_red_6.style.color = color_r
+
+    let copy_c = document.getElementById('copy')
+    copy_c.style.color = color_r; 
+
 }
 
 function blueChange(){
@@ -54,6 +60,12 @@ function blueChange(){
 
     let soci_c_red_5 = document.getElementById('soci5')
     soci_c_red_5.style.color = color_r;
+
+    let soci_c_red_6 = document.getElementById('soci6')
+    soci_c_red_6.style.color = color_r;
+
+    let copy_c = document.getElementById('copy')
+    copy_c.style.color = color_r;
 }
 
 function orangeChange(){
@@ -82,4 +94,11 @@ function orangeChange(){
 
     let soci_c_red_5 = document.getElementById('soci5')
     soci_c_red_5.style.color = color_r;
+
+    let soci_c_red_6 = document.getElementById('soci6')
+    soci_c_red_6.style.color = color_r;
+
+    let copy_c = document.getElementById('copy')
+    copy_c.style.color = color_r;
 }
+
