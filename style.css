@@ -112,3 +112,57 @@ header{
     top: 680px;
     left: 650px;
 }
+
+.pro{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    padding: 20px;
+}
+
+.fornt_round{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 250px;
+    background-color: rgb(184, 184, 184);
+}
+.pro_img{
+    width: 300px;
+    border-radius: 50%;
+}
+.pro_img:hover{
+    box-shadow: 1px 1px 10px rgba(43, 42, 42, 0.801);
+}
+.back_round{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -999;
+    left: 50px;
+    bottom: 80px;
+    background-color: #c6d2c6;
+}
+.dot_round{
+    height: 30px;
+    width: 30px;
+    background-color: #c6d2c6;
+    border-radius: 50%;
+    position: relative;
+    bottom: 330px;
+    animation: dot_anime 10s infinite;
+}
+.dot1{
+    height: 15px;
+    width: 15px;
+    left: 33px;
+    bottom: 360px;
+}
+.dot2{
+    height: 10px;
+    width: 10px;
+    bottom: 348px;
+    right: 5px;
+}
