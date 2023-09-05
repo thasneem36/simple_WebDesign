@@ -2,6 +2,7 @@ body{
     background: linear-gradient(to right, #c6d2c6, #ffffff);
 }
 
+
 .mainC{
     display: grid;
     grid-template-columns: 40px 1fr;
@@ -55,6 +56,17 @@ body{
     color: white;
 }
 
+.green{
+    background-color: green;
+    color: green;
+}
+.green:hover{
+    box-shadow: 0px 1px 5px green;
+    background-color: rgba(0, 128, 0, 0.8);
+    color: white;
+}
+
+
 
 
 .aboutus{
@@ -72,7 +84,7 @@ body{
     /* text-shadow: 1px 1px 5px orange;  */
 }
 .fullname{
-    font-size: 20px;
+    font-size: 19px;
     width: 360px;
     font-family: 'Nunito Sans', sans-serif;
     letter-spacing: 3px;
@@ -98,7 +110,7 @@ body{
 }
 .socialmedia a i{
     font-size: 25px;
-    color: rgb(127, 127, 127);
+    color: rgb(82, 82, 82);
     padding-right: 40px;
     transition: 2s;
 }
@@ -107,11 +119,6 @@ body{
     transition: 0.5s;
 }
 
-header{
-    position: absolute;
-    top: 680px;
-    left: 650px;
-}
 
 .pro{
     position: absolute;
@@ -127,6 +134,8 @@ header{
     position: absolute;
     top: 250px;
     background-color: rgb(184, 184, 184);
+    transition: 1.5s;
+    
 }
 .pro_img{
     width: 300px;
@@ -141,9 +150,10 @@ header{
     border-radius: 50%;
     position: absolute;
     z-index: -999;
-    left: 50px;
-    bottom: 80px;
+    left: 37px;
+    bottom: 91px;
     background-color: #c6d2c6;
+    transition: 2.5s;
 }
 .dot_round{
     height: 30px;
@@ -152,17 +162,175 @@ header{
     border-radius: 50%;
     position: relative;
     bottom: 330px;
-    animation: dot_anime 10s infinite;
+    transition: 2s;
 }
 .dot1{
     height: 15px;
     width: 15px;
     left: 33px;
     bottom: 360px;
+    transition: 2s;
 }
 .dot2{
     height: 10px;
     width: 10px;
     bottom: 348px;
     right: 5px;
+    transition: 2s;
+}
+
+
+@media(max-width: 1024px){
+    .mainC{
+        display: grid;
+        column-gap: 70px;
+    }
+
+    .hello{
+        font-size: 18px;
+    }
+    .fullname{
+        font-size: 17px;
+    }
+    .name{
+        font-size: 32px;
+    }
+
+    .socialmedia a i{
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 768px){
+    .mainC{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+    
+    .pik{
+        margin-bottom: 10px;
+    }
+
+    .hello{
+        font-size: 13px;
+    }
+    .fullname{
+        font-size: 14px;
+    }
+    .name{
+        font-size: 28px;
+    }
+    .socialmedia a i {
+        font-size: 19px;
+    }
+
+
+    .pro{
+        position: absolute;
+        top: 20%;
+        left: 57%;
+        padding: 20px;
+    }
+    .fornt_round{
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        top: 210px;
+    }
+    .pro_img{
+        width: 250px;
+    }
+    .back_round{
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        z-index: -999;
+        left: 37px;
+        bottom: 91px;
+    }
+    .dot_round{
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        position: relative;
+        bottom: 250px;
+        left: -20px;
+    }
+    .dot1{
+        height: 10px;
+        width: 10px;
+        left: -33px;
+        bottom: 250px;
+    }
+    .dot2{
+        height: 8px;
+        width: 8px;
+        bottom: 300px;
+        right: 50px;
+    }
+
+}
+
+@media (max-width: 320px){
+
+    .pro{
+        position: absolute;
+        top: 7%;
+        left: 15%;
+        padding: 20px;
+    }
+    .fornt_round{
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        top: 230px;
+        right: 230px;
+        border-radius: 10%;
+    }
+    .pro_img{
+        width: 250px;
+        border-radius: 10%;
+    }
+    .back_round{
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        z-index: -999;
+        left: 37px;
+        bottom: 91px;
+        border-radius: 10%;
+    }
+    .dot_round{
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        position: relative;
+        bottom: 250px;
+        left: -50px;
+        border-radius: 10%;
+    }
+    .dot1{
+        height: 10px;
+        width: 10px;
+        left: -20px;
+        bottom: 250px;
+        border-radius: 10%;
+    }
+    .dot2{
+        height: 8px;
+        width: 8px;
+        bottom: 300px;
+        left: -20px;
+        border-radius: 10%;
+    }
+
+    .mainC{
+        margin-top: 180px;
+    }
+
+    body{
+        background: none;
+    }
+
 }
